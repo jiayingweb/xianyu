@@ -31,7 +31,10 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/element-ui'
+    '@/plugins/element-ui',
+     { src: '@/plugins/localStorage.js', ssr: false },
+    //  调用axios拦截器
+    '@/plugins/axios'
   ],
   /*
   ** Nuxt.js dev-modules

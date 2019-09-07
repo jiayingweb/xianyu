@@ -6,10 +6,10 @@
           <dt>闲云旅游旅游网</dt>
           <dd>上亿旅行者共同打造的"旅行神器"</dd>
           <dd>以视觉方式显示信息的装置</dd>
-          <dd>60,000 多个全球旅游目的地</dd>
-          <dd>600,000 个细分目的地新玩法</dd>
-          <dd>760,000,000 次攻略下载</dd>
-          <dd>38,000 家旅游产品供应商</dd>
+          <dd><i> 60,000 </i>多个全球旅游目的地</dd>
+          <dd><i>600,000 </i>个细分目的地新玩法</dd>
+          <dd><i>760,000,000 </i>次攻略下载</dd>
+          <dd><i>38,000 </i>家旅游产品供应商</dd>
         </dl>
 
         <dl>
@@ -63,11 +63,14 @@ export default {};
 
     flex: 1;
     dt {
-      margin-bottom: 18px;
+      margin-bottom: 20px;
     }
     dd {
-      height: 20px;
+      height: 25px;
       font-size: 12px;
+      i{
+        color:khaki
+      }
     }
   }
   }
